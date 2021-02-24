@@ -1,0 +1,24 @@
+{
+    "data_path": "/data/sim/CTC/data/Hela/train/",
+    "data_path_val": "/data/sim/CTC/data/Hela/test/",
+    "batch_size": 80,
+    "num_epochs": 1000,
+    "load_epoch": 0,
+    "model_path": "/data/sim/CTC/snapshots/Hela1/vm_200",
+    "learning_rate": 1e-4,
+    "smooth": 0,
+    "data_shape": [
+        1,
+        128,
+        128
+    ],
+    "num_workers": 4,
+    "save_dir": "/data/sim/CTC/snapshots/Hela1/",
+    "save_step": 30,
+    "image_dir": "/data/sim/CTC/snapshots/Hela1/val_images/",
+    "log_dir": "/data/sim/CTC/snapshots/Hela1/logs/",
+    "model_name": "vm",
+    "use_gpu": true,
+    "tensorboard": true,
+    "comments": ""
+}
